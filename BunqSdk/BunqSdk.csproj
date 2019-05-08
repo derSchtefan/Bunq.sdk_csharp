@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFrameworks>netstandard1.5;netstandard2.0;netcoreapp1.1</TargetFrameworks>
     <LangVersion>default</LangVersion>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
   </PropertyGroup>
   <PropertyGroup>
     <AssemblyName>Bunq.Sdk</AssemblyName>

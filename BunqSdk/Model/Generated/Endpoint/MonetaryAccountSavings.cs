@@ -193,7 +193,7 @@ namespace Bunq.Sdk.Model.Generated.Endpoint
         /// The progress in percentages for the Savings Goal set for this MonetaryAccountSavings.
         /// </summary>
         [JsonProperty(PropertyName = "savings_goal_progress")]
-        public double? SavingsGoalProgress { get; set; }
+        public decimal? SavingsGoalProgress { get; set; }
 
         /// <summary>
         /// Create new MonetaryAccountSavings.
