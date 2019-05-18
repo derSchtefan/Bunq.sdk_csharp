@@ -44,7 +44,7 @@ namespace Bunq.Sdk.Model.Generated.Endpoint
         /// The attachments attached to the fundraiser profile.
         /// </summary>
         [JsonProperty(PropertyName = "attachment")]
-        public List<AttachmentPublic> Attachment { get; set; }
+        public AttachmentPublic Attachment { get; set; }
 
         /// <summary>
         /// The status of the bunq.me fundraiser profile, can be ACTIVE or DEACTIVATED.
