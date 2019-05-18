@@ -29,11 +29,13 @@ namespace Bunq.Sdk.Http
         private const string DEVICE_SERVER_URL = "device-server";
         private const string INSTALLATION_URL = "installation";
         private const string SESSION_SERVER_URL = "session-server";
+        private const string PAYMENT_SERVER_PROVIDER_CREDENTIAL = "payment-service-provider-credential";
         private static readonly string[] URIS_NOT_REQUIRING_ACTIVE_SESSION = new string[]
         {
             DEVICE_SERVER_URL,
             INSTALLATION_URL,
-            SESSION_SERVER_URL
+            SESSION_SERVER_URL,
+            PAYMENT_SERVER_PROVIDER_CREDENTIAL
         };
 
         /// <summary>
@@ -62,7 +64,7 @@ namespace Bunq.Sdk.Http
         /// Values for the default headers
         /// </summary>
         private const string CACHE_CONTROL_NONE = "no-cache";
-        private const string USER_AGENT_BUNQ = "bunq-sdk-csharp/1.1.0.0";
+        private const string USER_AGENT_BUNQ = "bunq-sdk-csharp/1.10.2";
         private const string LANGUAGE_EN_US = "en_US";
         private const string REGION_NL_NL = "nl_NL";
         private const string GEOLOCATION_ZERO = "0 0 0 0 NL";

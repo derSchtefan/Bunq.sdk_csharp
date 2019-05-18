@@ -1,7 +1,30 @@
 # Change Log
 
-## [Unreleased](https://github.com/bunq/sdk_csharp/tree/1.1.0)
+## [1.10.2](https://github.com/bunq/sdk_csharp/tree/1.10.2) (2019-05-09)
 
+[Full Changelog](https://github.com/bunq/sdk_csharp/compare/1.10.1...1.10.2)
+
+**Merged pull requests:**
+
+- Fix Windows issues. \(bunq/sdk\_csharp\#124\) [\#126](https://github.com/bunq/sdk_csharp/pull/126) ([kojoru](https://github.com/kojoru))
+
+## [1.10.1](https://github.com/bunq/sdk_csharp/tree/1.10.1) (2019-05-08)
+[Full Changelog](https://github.com/bunq/sdk_csharp/compare/1.10.0...1.10.1)
+
+## [1.10.0](https://github.com/bunq/sdk_csharp/tree/1.10.0) (2019-05-08)
+[Full Changelog](https://github.com/bunq/sdk_csharp/compare/1.1.0...1.10.0)
+
+**Closed issues:**
+
+- PSD2 Support [\#124](https://github.com/bunq/sdk_csharp/issues/124)
+
+**Merged pull requests:**
+
+- Implement psd2 [\#125](https://github.com/bunq/sdk_csharp/pull/125) ([kojoru](https://github.com/kojoru))
+- Add missing semicolons in README.md [\#123](https://github.com/bunq/sdk_csharp/pull/123) ([WouterJanson](https://github.com/WouterJanson))
+- fix broken link in readme [\#120](https://github.com/bunq/sdk_csharp/pull/120) ([Niggggggo](https://github.com/Niggggggo))
+
+## [1.1.0](https://github.com/bunq/sdk_csharp/tree/1.1.0) (2018-10-10)
 [Full Changelog](https://github.com/bunq/sdk_csharp/compare/1.0.0...1.1.0)
 
 **Fixed bugs:**
