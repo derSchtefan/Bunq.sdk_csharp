@@ -267,3 +267,5 @@ bunq-test.conf
 config.json
 .idea/.idea.BunqSdk/.idea/preferred-vcs.xml
 .idea/.idea.BunqSdk/.idea/indexLayout.xml
+.vs/BunqSdk/xs/sqlite3
+.vs/BunqSdk/xs
