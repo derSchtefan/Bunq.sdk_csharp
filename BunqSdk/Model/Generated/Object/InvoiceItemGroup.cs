@@ -50,6 +50,7 @@ namespace Bunq.Sdk.Model.Generated.Object
         [JsonProperty(PropertyName = "item")]
         public List<InvoiceItem> Item { get; set; }
 
+
         /// <summary>
         /// </summary>
         public override bool IsAllFieldNull()
